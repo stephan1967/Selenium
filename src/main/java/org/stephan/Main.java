@@ -13,13 +13,9 @@ public class Main {
 
     @Test
     void Test1 () {
-
-
-                ChromeDriver driver = new ChromeDriver();
-
+ChromeDriver driver = new ChromeDriver();
 driver.get ("https://www.google.nl");
 driver.quit();
-
     }
 
 }
