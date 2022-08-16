@@ -1,4 +1,4 @@
-package org.stephan;
+package Selenium;
 
 import org.junit.Test;
 import org.openqa.selenium.By;

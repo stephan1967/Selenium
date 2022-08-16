@@ -1,11 +1,8 @@
 package Interface;
 
 public class StoneCold implements Wrestler {
-
     @Override
-    public void themeMusic() {
-        System.out.println("Theme from StoneCold");
-    }
+    public void themeMusic() { System.out.println("Theme from StoneCold");   }
 
     @Override
     public void finisher() {

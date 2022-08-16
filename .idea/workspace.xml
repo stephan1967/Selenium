@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82039103-82be-4a24-971c-52a701100895" name="Changes" comment="added ChromeDriver,Junit and first UI test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interface/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interface/StoneCold.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interface/Wrestler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/stephan/cssSelector.java" afterDir="false" />
+    <list default="true" id="82039103-82be-4a24-971c-52a701100895" name="Changes" comment="added examples of Interface">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Aggregation/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Aggregation/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interface/Kane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Selenium/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/stephan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/stephan/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interface/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interface/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interface/StoneCold.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interface/StoneCold.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Interface/Wrestler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interface/Wrestler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/stephan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Selenium/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/stephan/cssSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Selenium/cssSelector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +41,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowPull Requests.ShowToolbar": "false"
   }
-}</component>
-  <component name="RunManager" selected="Application.Main">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\stscherd\IdeaProjects\Selenium\src\main\java\Aggregation" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.stephan" />
+      <recent name="Interface" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Main (1)">
+    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.stephan.Car" />
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.stephan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Emp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Emp" />
+      <module name="Selenium" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Interface.Main" />
       <module name="Selenium" />
@@ -58,46 +92,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.stephan.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.stephan.Main" />
+    <configuration name="Main (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Interface.*" />
+          <option name="PATTERN" value="Selenium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Interface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.stephan" />
-      <option name="MAIN_CLASS_NAME" value="org.stephan.Main" />
+      <option name="PACKAGE_NAME" value="Selenium" />
+      <option name="MAIN_CLASS_NAME" value="Selenium.Main" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Interface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.stephan" />
-      <option name="MAIN_CLASS_NAME" value="org.stephan.Main" />
-      <option name="METHOD_NAME" value="Test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.Main (1)" />
+        <item itemvalue="Application.Emp" />
+        <item itemvalue="Application.Car" />
         <item itemvalue="JUnit.cssSelector.cssTutorial" />
-        <item itemvalue="JUnit.Main" />
-        <item itemvalue="JUnit.Main.Test" />
-        <item itemvalue="Application.org.stephan.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -137,6 +142,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660424354289</updated>
     </task>
+    <task id="LOCAL-00001" summary="added examples of Interface">
+      <created>1660596538773</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660596538773</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,5 +162,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added examples of Interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="added examples of Interface" />
   </component>
 </project>
