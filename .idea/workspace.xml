@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82039103-82be-4a24-971c-52a701100895" name="Changes" comment="added examples of Interface">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Aggregation/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Aggregation/Emp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interface/Kane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Selenium/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Inheritance/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interface/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interface/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interface/StoneCold.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interface/StoneCold.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Interface/Wrestler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Interface/Wrestler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/stephan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Selenium/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/stephan/cssSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Selenium/cssSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Aggregation/Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aggregation/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +39,10 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ToolWindowPull Requests.ShowToolbar": "false"
+    "ToolWindowPull Requests.ShowToolbar": "false",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -58,13 +54,26 @@
       <recent name="Interface" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Main (1)">
-    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.stephan.Car" />
+  <component name="RunManager" selected="Application.Inheritance.Test">
+    <configuration name="Aggregation.Emp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aggregation.Emp" />
       <module name="Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.stephan.*" />
+          <option name="PATTERN" value="Inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Aggregation.Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aggregation.Employee" />
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interface.Main" />
+    <configuration name="Inheritance.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Inheritance.Test" />
       <module name="Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Interface.*" />
+          <option name="PATTERN" value="Inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,29 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cssSelector.cssTutorial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Interface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.stephan" />
-      <option name="MAIN_CLASS_NAME" value="org.stephan.cssSelector" />
-      <option name="METHOD_NAME" value="cssTutorial" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Inheritance.Test" />
+        <item itemvalue="Application.Aggregation.Employee" />
+        <item itemvalue="Application.Aggregation.Emp" />
         <item itemvalue="JUnit.Main (1)" />
         <item itemvalue="Application.Emp" />
-        <item itemvalue="Application.Car" />
-        <item itemvalue="JUnit.cssSelector.cssTutorial" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660596538773</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added examples of Interface">
+      <created>1660644775219</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660644775219</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
