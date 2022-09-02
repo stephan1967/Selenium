@@ -4,10 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82039103-82be-4a24-971c-52a701100895" name="Changes" comment="added examples of Interface">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Inheritance/Test.java" afterDir="false" />
+    <list default="true" id="41eac897-7992-4a20-98cc-cd74ec2cbf90" name="Changes" comment="faker">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AccessModifiers/Package1/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AccessModifiers/Package1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Encapsulation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Inheritance/Bicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Various/Arraylist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Various/Exceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Various/GenericsClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Various/HashMaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Various/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Various/MethodOverloading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Various/fileHandling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Various/frokko.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Various/iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Various/pipo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Aggregation/Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aggregation/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Aggregation/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Aggregation/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Inheritance/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Inheritance/MountainBike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Politie/EnterpriseForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Politie/Starter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Selenium/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Various/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Selenium/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Selenium/cssSelector.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,14 +39,26 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="NamedScopeManager">
+    <order>
+      <scope name="joepie" />
+    </order>
   </component>
   <component name="ProjectId" id="2DJk0jrpOY4KsY3hvQUwUxmBaLh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -34,29 +66,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ToolWindowPull Requests.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowPull Requests.ShowToolbar": "false",
+    "last_opened_file_path": "C:/Users/stscherd/IdeaProjects/Selenium/src/main/java/Inheritance",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.scopes"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\stscherd\IdeaProjects\Selenium\src\main\java\Inheritance" />
+      <recent name="C:\Users\stscherd\IdeaProjects\Selenium\src\main\java\AccessModifiers1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\stscherd\IdeaProjects\Selenium\src\main\java\Aggregation" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Various" />
       <recent name="org.stephan" />
       <recent name="Interface" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Inheritance.Test">
-    <configuration name="Aggregation.Emp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aggregation.Emp" />
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn package" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.EncapsulateTest">
+    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Inheritance.Driver" />
       <module name="Selenium" />
       <extension name="coverage">
         <pattern>
@@ -68,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Aggregation.Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aggregation.Employee" />
+    <configuration name="Encapsulation.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Encapsulation.Main" />
       <module name="Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Inheritance.*" />
+          <option name="PATTERN" value="Encapsulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,19 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Emp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Emp" />
-      <module name="Selenium" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Inheritance.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Inheritance.Test" />
+    <configuration name="proberen.Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="proberen.Driver" />
       <module name="Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Inheritance.*" />
+          <option name="PATTERN" value="proberen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,35 +139,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EncapsulateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Selenium.*" />
+          <option name="PATTERN" value="Encapsulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Selenium" />
-      <option name="MAIN_CLASS_NAME" value="Selenium.Main" />
+      <option name="PACKAGE_NAME" value="Encapsulation" />
+      <option name="MAIN_CLASS_NAME" value="Encapsulation.EncapsulateTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EncapsulateTest.getGeekAge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Encapsulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Encapsulation" />
+      <option name="MAIN_CLASS_NAME" value="Encapsulation.EncapsulateTest" />
+      <option name="METHOD_NAME" value="getGeekAge" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Main (1)" />
-        <item itemvalue="Application.Inheritance.Test" />
-        <item itemvalue="Application.Aggregation.Employee" />
-        <item itemvalue="Application.Aggregation.Emp" />
-        <item itemvalue="Application.Emp" />
+        <item itemvalue="JUnit.EncapsulateTest" />
+        <item itemvalue="JUnit.EncapsulateTest.getGeekAge" />
+        <item itemvalue="Application.Encapsulation.Main" />
+        <item itemvalue="Application.Driver" />
+        <item itemvalue="Application.proberen.Driver" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="82039103-82be-4a24-971c-52a701100895" name="Changes" comment="" />
+      <changelist id="41eac897-7992-4a20-98cc-cd74ec2cbf90" name="Changes" comment="added examples of Interface" />
       <created>1660424354289</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -149,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660644775219</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="faker">
+      <created>1660767204943</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660767204943</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,6 +226,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added examples of Interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="added examples of Interface" />
+    <MESSAGE value="faker" />
+    <option name="LAST_COMMIT_MESSAGE" value="faker" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Generic/gre.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Various/iterator.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

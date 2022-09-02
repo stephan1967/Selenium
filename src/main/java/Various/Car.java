@@ -1,4 +1,4 @@
-package Selenium;
+package Various;
 
 public class Car {
 
@@ -6,7 +6,7 @@ public class Car {
     private String model;
     private String colour;
     public String frodo = "yekkel";
-     static final String blijfVanMijAf = "cant touch this";
+    static final String blijfVanMijAf = "cant touch this";
 
     public Car(String make, String model, String colour) {
         // Constructors in Java

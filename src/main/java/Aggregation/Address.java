@@ -1,13 +1,14 @@
 package Aggregation;
 
 public class Address {
-String city,state,country;
+	String city;
+	String state;
+	String country;
 
-public Address(String city, String state, String country) {
-	super();
-	this.city = city;
-	this.state = state;
-	this.country = country;
-}
-
+	public Address(String city, String state, String country) {
+		super();
+		this.city = city;
+		this.state = state;
+		this.country = country;
+	}
 }
